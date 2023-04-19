@@ -1,42 +1,42 @@
-.team-section {
+.teamSection {
   background-color: black;
   color: orange;
   padding: 50px;
 }
 
-.team-section-title {
+.teamSectionTitle {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 50px;
 }
 
-.team-member-list {
+.teamMemberList {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.team-member {
+.teamMember {
   max-width: 300px;
   margin: 20px;
   text-align: center;
 }
 
-.team-member-image {
+.teamMemberImage {
   max-width: 100%;
   border-radius: 50%;
 }
 
-.team-member-name {
+.teamMemberName {
   font-size: 1.5rem;
   margin: 10px 0;
 }
 
-.team-member-role {
+.teamMemberRole {
   font-style: italic;
   margin-bottom: 10px;
 }
 
-.team-member-bio {
+.teamMemberBio {
   font-size: 0.9rem;
 }

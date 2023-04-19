@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+import style from './meetourteam.module.css';
 
 const TeamSection = () => {
   const teamMembers = [
@@ -35,19 +35,19 @@ const TeamSection = () => {
   ];
 
   return (
-    <section className="team-section">
-      <h2 className="team-section-title">Meet Our Trainers</h2>
-      <div className="team-member-list">
+    <section className={style.teamSection}>
+      <h2 className={style.teamSectionTitle}>Meet Our Trainers</h2>
+      <div className={style.teamMemberList}>
         {teamMembers.map((member, index) => (
-          <div className="team-member" key={index}>
+          <div className={style.teamMember} key={index}>
             <img
               src={member.imageUrl}
               alt={member.name}
-              className="team-member-image"
+              className={style.teamMemberImage}
             />
-            <h3 className="team-member-name">{member.name}</h3>
-            <p className="team-member-role">{member.role}</p>
-            <p className="team-member-bio">{member.bio}</p>
+            <h3 className={style.teamMemberName}>{member.name}</h3>
+            <p className={style.teamMemberRole}>{member.role}</p>
+            <p className={style.teamMemberBio}>{member.bio}</p>
           </div>
         ))}
       </div>

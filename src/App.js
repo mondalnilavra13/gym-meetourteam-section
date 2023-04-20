@@ -51,6 +51,7 @@ const TeamSection = () => {
           </div>
         ))}
       </div>
+      <button className={style.meetTeamButton}>Meet our whole team</button>
     </section>
   );
 };
